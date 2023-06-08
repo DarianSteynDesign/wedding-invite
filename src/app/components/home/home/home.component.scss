@@ -1,0 +1,57 @@
+.navbar-container {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background: white;
+    box-shadow: 2px 2px 3px #d3d3d3;
+
+    .logo {
+        width: 215px;
+        height: 90px;
+        margin: auto auto auto 20px;
+    }
+
+    .menu-container {
+        display: flex;
+        margin-left: auto;
+
+        .menu-list {
+            display: flex;
+            list-style-type: none;
+            margin: auto;
+
+            .menu-list-item {
+                margin: 0 15px;
+
+                a {
+                    cursor: pointer;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hero-img {
+    .header-img {
+        width: 100%;
+    }
+}
+
+.info-decor {
+    right: 0;
+}
+
+.details {
+    text-align: center;
+}
+
+.darianAsh {
+    font-family: 'Tangerine', cursive;
+    font-size: 2rem;
+}
+
+pre {}
