@@ -54,4 +54,24 @@
     font-size: 2rem;
 }
 
-pre {}
+$small: 300px;
+$medium: 900px;
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+    .navbar-container {
+        .logo {
+            margin: initial;
+            width: 140px;
+            margin-left: 20px;
+        }
+        .menu-container {
+            margin: initial;
+        }
+    }
+
+    .hero-img {
+        .header-img {
+            margin-top: 90px;
+        }
+    }
+}
