@@ -2,6 +2,7 @@
     display: flex;
     width: 100%;
     position: fixed;
+    z-index: 3;
     background: white;
     box-shadow: 2px 2px 3px #d3d3d3;
 
@@ -63,6 +64,7 @@ $medium: 900px;
             margin: initial;
             width: 140px;
             margin-left: 20px;
+            height: 70px;
         }
         .menu-container {
             margin: initial;
@@ -79,7 +81,15 @@ $medium: 900px;
 
     .hero-img {
         .header-img {
-            margin-top: 90px;
+            margin-top: 70px;
         }
+    }
+
+    .details {
+        font-size: 0.9rem;
+    }
+
+    .info-decor {
+        top: 180px;
     }
 }

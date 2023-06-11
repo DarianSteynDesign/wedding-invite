@@ -1,3 +1,22 @@
 .map-decor {
     left: -100px;
 }
+
+.maps {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+$small: 300px;
+$medium: 900px;
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+    .maps {
+        width: 130px;
+        margin-bottom: 20px;
+    }
+
+    .map-decor {
+        top: -100px;
+    }
+}

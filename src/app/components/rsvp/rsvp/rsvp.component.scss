@@ -1,3 +1,22 @@
 .rsvp-decor {
     right: 0;
 }
+
+.rsvp {
+    width: 170px;
+    margin-bottom: 30px;
+}
+
+$small: 300px;
+$medium: 900px;
+
+@media screen and (min-width: $small) and (max-width: $medium) {
+    .rsvp {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    .rsvp-decor {
+        top: -180px;
+    }
+}
