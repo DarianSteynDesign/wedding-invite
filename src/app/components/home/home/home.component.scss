@@ -66,6 +66,14 @@ $medium: 900px;
         }
         .menu-container {
             margin: initial;
+
+            .menu-list {
+                .menu-list-item {
+                    a {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
         }
     }
 
